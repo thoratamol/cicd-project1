@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM redhat/ubi9-micro:latest
 MAINTAINER thoratamol@gmail.com
 RUN yum install -y httpd \
 zip \
