@@ -6,6 +6,5 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page284/mi
 WORKDIR /var/www/html
 RUN unzip mical.zip
 RUN cp -rvf mical-html/* .
-RUN rm -rf _MACOSX
 CMD ["/usr/sbin/httpd", "D", "FOREGROUND"]
 EXPOSE 80
